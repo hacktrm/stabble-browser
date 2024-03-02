@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap");
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.welcome {
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  color: #fff;
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(27, 27, 27);
+  flex-direction: column;
+  justify-content: center;
+}
+
+.enderman {
+  max-width: 100%;
+  height: auto; 
+}

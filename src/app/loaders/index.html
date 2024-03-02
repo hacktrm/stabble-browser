@@ -1,0 +1,19 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ink Desk Browser</title>
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+  <link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+  <div id="menubar">
+    <input type="text" id="address-bar" placeholder="https://" onkeydown="if (event.key === 'Enter') loadPage()">
+  </div>
+  <webview id="webview" src="pages/welcome.html"></webview>
+
+  <script src="js/webviews.js"></script>
+</body>
+</html>
